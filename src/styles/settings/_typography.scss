@@ -1,0 +1,40 @@
+$header-font-family: 'pprg',
+sans-serif !default;
+$header-font-weight: 500 !default;
+$header-font-style : normal !default;
+$font-family-monospace: Consolas,
+'Liberation Mono',
+Courier,
+monospace !default;
+$font-family-serif   : 'serif' !default;
+$header-color        : #113628 !default;
+$header-lineheight   : 1.14 !default;
+$header-margin-bottom: 0.625rem !default;
+$small-font-size     : 80% !default;
+
+$header-small-font-color: $header-color !default;
+$paragraph-lineheight   : 1.33 !default;
+$paragraph-margin-bottom: .625rem !default;
+
+$header-styles: (small: ('h1': ('font-size': 48),
+        'h2': ('font-size': 38),
+        'h3': ('font-size': 32),
+        'h4': ('font-size': 24),
+        'h5': ('font-size': 20),
+        'h6': ('font-size': 18),
+    ),
+    medium: ('h1': ('font-size': 64),
+        'h2': ('font-size': 56),
+        'h3': ('font-size': 36),
+        'h4': ('font-size': 26),
+        'h5': ('font-size': 22),
+        'h6': ('font-size': 18),
+    ),
+    large: ('h1': ('font-size': 128),
+        'h2': ('font-size': 72),
+        'h3': ('font-size': 42),
+        'h4': ('font-size': 28),
+        'h5': ('font-size': 24),
+        'h6': ('font-size': 18),
+    ),
+) !default;

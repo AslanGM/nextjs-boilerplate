@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'pprg';
+    src        : url('../fonts/pprg-light.woff2') format('woff2');
+    font-weight: 300;
+    font-style : normal;
+}
+
+@font-face {
+    font-family: 'pprg';
+    src        : url('../fonts/pprg-medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style : normal;
+}
+
+$body-background: #FDFBF5 !default;
+$body-font-family: 'pprg',
+sans-serif !default;
+$global-weight-normal: 300 !default;
+$global-font-size    : 18;
+$global-lineheight   : 1.4 !default;
+$body-font-color     : #2F3031 !default;
+$base-font-size      : 100% !default;
+$global-width        : 1320 !default;
